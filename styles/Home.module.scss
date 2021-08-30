@@ -1,0 +1,43 @@
+$primary: #024b30;
+
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.startButton {
+  cursor: pointer;
+  background-color: $primary;
+  color: white;
+  border-radius: 0.2rem;
+  border: transparent;
+  padding: 1rem 1rem;
+  font-weight: 550;
+  font-size: 1.1rem;
+
+  &:hover {
+    opacity: 90%;
+  }
+}
+
+.header {
+  color: $primary;
+}
+
+.header2 {
+  font-weight: 400;
+}
