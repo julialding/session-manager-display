@@ -1,14 +1,14 @@
 $primary: #024b30;
 
 .container {
+  background: linear-gradient(90deg, hsla(158, 95%, 15%, 0.75) 0%, hsla(110, 47%, 49%, 0.6) 48%, hsla(89, 100%, 84%, 0.75) 95%);
+  height: 100vh;
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background: linear-gradient(90deg, hsla(158, 95%, 15%, 0.75) 0%, hsla(110, 47%, 49%, 0.6) 48%, hsla(89, 100%, 84%, 0.75) 95%);
 }
 
 .main {
@@ -21,9 +21,9 @@ $primary: #024b30;
 }
 
 .joinButton {
+  color: white;
   cursor: pointer;
   background-color: $primary;
-  color: white;
   border-radius: 0.2rem;
   border: transparent;
   padding: 1rem 1rem;

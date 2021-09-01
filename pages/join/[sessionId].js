@@ -13,15 +13,9 @@ export default function Join() {
         </Head>
           <h1 className={styles.header}>Join a Session</h1>
           <h2 className={styles.header2}>Input your name below</h2>
-          <input
-              required
-              className={styles.input}
-              type='text'
-              placeholder='Name'
-            />
+          <input required className={styles.input} type='text' placeholder='Name' />
           <Link href='/session/session'>
-          <button
-            className={styles.joinButton}>
+          <button className={styles.joinButton}>
             Join session
           </button>
           </Link>

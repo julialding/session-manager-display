@@ -1,1 +1,26 @@
 $primary: #024b30;
+
+.participantContainer {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+  .participantRow {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 45px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .participantName {
+    color: $primary;
+    font-size: 1em;
+  }
